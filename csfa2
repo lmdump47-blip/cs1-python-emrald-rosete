@@ -1,0 +1,65 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyP4PFgHPj3o8p/Bs/Zay0/y",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/lmdump47-blip/cs1-python-emrald-rosete/blob/main/csfa2\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": 14,
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "kwr9ZYm8LxIs",
+        "outputId": "3c1b0d59-4670-4a9c-a964-cdd091c147c8"
+      },
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Enter first number:   45\n",
+            "Enter second number:   67\n",
+            "Enter third number:   69\n",
+            "69  is the greatest number \n"
+          ]
+        }
+      ],
+      "source": [
+        "num1 = int(input(\"Enter first number:   \"))\n",
+        "num2 = int(input(\"Enter second number:   \"))\n",
+        "num3 = int(input(\"Enter third number:   \"))\n",
+        "\n",
+        "if num1 >= num2 and num1  >= num3:\n",
+        "  print(num1, \"is the greatst number \")\n",
+        "elif num2 >= num1 and num2 >= num3:\n",
+        "  print(num2, \"is the greatest number \")\n",
+        "else:\n",
+        "  print(num3, \" is the greatest number \")"
+      ]
+    }
+  ]
+}
