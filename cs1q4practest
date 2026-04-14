@@ -1,0 +1,70 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyNmDhZKHDeLBuUrOHln83TQ",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/lmdump47-blip/cs1-python-emrald-rosete/blob/main/cs1q4practest\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "\n",
+        "    print(\"Welcome to the Simple Number Evaluation Program!\")\n",
+        "\n",
+        "    count = int(input(\"\\nHow many numbers would you like to enter?\\n\"))\n",
+        "\n",
+        "    for i in range(1, count + 1):\n",
+        "        num = int(input(f\"\\nEnter number {i}:\"))\n",
+        "\n",
+        "        if num % 2 == 0:\n",
+        "            print(\"{num} is an even number.\")\n",
+        "        else:\n",
+        "            print(\"{num} is an odd number.\")\n",
+        "\n",
+        "\n",
+        "    print(\"Processing results...\")\n",
+        "    print(\"Total of all numbers: {total}\")\n",
+        "    print(\"Average of the numbers: {average}\")\n",
+        "    print(\"Thank you for using the Simple Number Evaluation Program!\")"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "_d7SbGD6aRYh",
+        "outputId": "091f7957-3196-4d0a-dc21-7cb95de0a08a"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Welcome to the Simple Number Evaluation Program!\n"
+          ]
+        }
+      ]
+    }
+  ]
+}
