@@ -1,0 +1,48 @@
+{
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/lmdump47-blip/cs1-python-emrald-rosete/blob/main/fa5programming\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "\n",
+        "def total(price, quantity):\n",
+        "    return price * quantity\n",
+        "\n",
+        "price = float(input(\"Enter price: \"))\n",
+        "\n",
+        "quantity = int(input(\"Enter quantity: \"))\n",
+        "\n",
+        "answer = total(price, quantity)\n",
+        "\n",
+        "print(\"Total =\", answer)\n"
+      ],
+      "metadata": {
+        "id": "brwRr8DHxMxT"
+      },
+      "execution_count": null,
+      "outputs": []
+    }
+  ],
+  "metadata": {
+    "colab": {
+      "name": "Welcome To Colab",
+      "provenance": [],
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "display_name": "Python 3",
+      "name": "python3"
+    }
+  },
+  "nbformat": 4,
+  "nbformat_minor": 0
+}
