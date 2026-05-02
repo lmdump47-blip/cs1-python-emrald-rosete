@@ -13,20 +13,20 @@
     {
       "cell_type": "code",
       "source": [
-        "\n",
         "def total(price, quantity):\n",
         "    return price * quantity\n",
         "\n",
         "price = float(input(\"Enter price: \"))\n",
-        "\n",
         "quantity = int(input(\"Enter quantity: \"))\n",
+        "\n",
         "\n",
         "answer = total(price, quantity)\n",
         "\n",
-        "print(\"Total =\", answer)\n"
+        "\n",
+        "print(\"Total =\", answer)"
       ],
       "metadata": {
-        "id": "brwRr8DHxMxT"
+        "id": "_2IRp4vYx57w"
       },
       "execution_count": null,
       "outputs": []
